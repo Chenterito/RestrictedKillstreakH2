@@ -72,6 +72,6 @@ SetDvarIfNotInizialized(dvar, value)
 }
 IsInizialized(dvar)
 {
-	result = getDvarInt(dvar);
+	result = getDvar(dvar);
 	return !isDefined(result) || result != "";
 }
